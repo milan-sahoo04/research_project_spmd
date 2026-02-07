@@ -1,0 +1,15 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Trained models (large files)
+models/
+
+# Environment variables
+.env
+
+# Extra PDFs (not tracked)
+data/raw/extra_pdfs/
