@@ -1,0 +1,466 @@
+EnvironmentalPollution271(2021)116354
+ContentslistsavailableatScienceDirect
+Environmental Pollution
+journal homepage: www.elsevier.com/locate/envpol
+Changing air pollution scenario during COVID-19: Redefining the
+*
+hotspot regions over India
+Bhishma Tyagi a,* , Goutam Choudhury b, Naresh Krishna Vissa a, Jyotsna Singh c,
+Matthias Tesche b
+aDepartmentofEarthandAtmosphericSciences,NationalInstituteofTechnologyRourkela,Rourkela769008,Odisha,India
+bLeipzigInstituteforMeteorology(LIM),LeipzigUniversity,Stephanstrasse3,04103Leipzig,Germany
+cShantiRajBhawan,ParamhansNagar,Kandwa,Varanasi221106,India
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: ThepresentstudyinvestigatestheairpollutionpatternoverIndiaduringtheCOVID-19lockdownperiod
+Received4August2020 (24 Marche31 May 2020), pre-lockdown (1e23 March 2020) and the same periods from 2019 using
+Receivedinrevisedform ModerateResolutionImagingSpectroradiometer(MODIS)Terraaerosolopticaldepth(AOD)withlevel2
+15December2020 (10km(cid:1)10km) andlevel3(1(cid:3) (cid:1)1(cid:3) gridded)collection6.1DarkTargetDeep Blue (DT-DB)aerosol
+Accepted16December2020
+Availableonline22December2020
+producttheTroposphericMonitoringInstrument(TROPOMI)NO2andSO2datawithaspatialresolution
+of 7 km (cid:1) 3.5 km. We also use long-term average (2000e2017) of AOD for MarcheMay to identify
+existing hotspot regions and to compare the variations observed in 2019 and 2020. The aim of the
+Keywords:
+presentworkistoidentifythepollutionhotspotregionsinIndiathatexistedduringthelockdownand
+Airpollution
+Nitrogendioxide understanding the future projection scenarios reported by previous studies in light of the present
+Particulatematter
+findings.WehaveincorporatedMenn-KendalltrendanalysistounderstandtheAODtrendsoverIndia
+Sulphurdioxide andpercentagechangeinAOD,NO2andSO2toidentifyairpollutionpatternchangesduringthelock-
+Coal-firedpowerplants down.TheresultsindicatehigherairpollutionlevelsovereasternIndiaoverthecoal-firedpowerplants
+clusters. Byconsidering the earlier projected studies, our results suggest that eastern Indiawill have
+higherlevelsofairpollution,makingitanewhotspotregionforairpollutionwithhighestmagnitudes.
+©2020ElsevierLtd.Allrightsreserved.
+1. Introduction industrialproductionortheoperationofpublicandprivatetrans-
+portation (Bherwani et al., 2020) e apart from essential services.
+Severeacuterespiratorysyndromecoronavirus2(SARS-CoV-2), VariouslockdownphasescontinueduntilMay31,2020,afterwhich
+the virus that causes coronavirus disease 2019 (COVID-19) has the Government of India started to ease the restrictions and
+threatenedthehumanityrecently(Sarmadietal.,2020).COVID-19 allowedareturntoroutineoperationsfortrafficandtheindustries
+was declared a pandemic by the World Health Organisation on (https://www.mygov.in/covid-19).
+March 11, 2020 due to its rapid spread and associated mortality Thoughthelockdownaffectednegativelypersonallivesmani-
+(WHO, 2020). As of July 28, 2020, the disease has spread to 213 fold,itshowedapositiveeffectontheenvironmentwithimproved
+countries,makingitthemostmassivepandemicinmodernhistory airqualityglobally(Dutheiletal.,2020).Manystudieshavebeen
+(WHO,2020).IndiatooisseverelyaffectedbyCOVID-19withatotal published after COVID-19 lockdown observing the reduction in
+of9.88millioncasesand1.62millionfatalitiesasofDecember14, pollutantsglobally.Studiedwhichreportedairpollutionreductions
+2020(covid19india.org;https://www.mygov.in/covid-19). across the continents found that the reductions varied over
+TheGovernmentofIndiaannouncedanationwidelockdownon different cities with the highest decrease of 57% over Colombia,
+March24,2020.Thelockdownwasaimedtoforcepeopletostayat South America, followed by 42% decrease over Kuwait, and 40%
+homeandmarkedanunprecedentedsituationwithanabsenceof decrease over India (Rodriguez-Urrego and Rodriguez-Urrego,
+2020; Chauhan and Singh, 2020; Bherwani et al., 2020). A
+decreaseof20e30%inNO2concentrationsoverChina,Europe,Italy,
+* ThispaperhasbeenrecommendedforacceptancebyAdmirC.Targino. France, Spain and the US using Aura and Senitel-5P datasetswas
+* Correspondingauthor. alsoreported(Muhammedetal.,2020a,b).
+E-mailaddress:tyagib@nitrkl.ac.in(B.Tyagi).
+https://doi.org/10.1016/j.envpol.2020.116354
+0269-7491/©2020ElsevierLtd.Allrightsreserved.
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+AnalysisofPM2.5andNO2overtheUSduringtheCOVID-19and radiometer(MODIS)level2(10km(cid:1)10km)andlevel3(1(cid:3) (cid:1)1(cid:3)
+pre-COVID-19outbreakperiodshowsa25.5%reductioninNO2and gridded)collection6.1dataareusedtoderiveAODat550nmasa
+significant reductions in PM2.5 values over urban areas during proxy for aerosol load (PM pollution). The product combines re-
+COVID-19 periods, indicating reduced emissions from traffic and trievals using the dark target algorithm (Levy et al., 2007, 2013)
+industries (Berman and Ebisu, 2020). However, PM2.5 concentra- overwaterandthedeepblue(Hsuetal.,2013)algorithmoverland,
+tionsdidnotshowanysuchreductionoverOntario,Canada,though and provides improved data coverage over both dark and bright
+therewerereductionsinNOXandalsoslightreductionsinO3levels surfaces (Bilal et al., 2018; Wei et al., 2019). The datasets are
+(Adams,2020).NakadaandUrban(2020)reported64.8%decrease downloaded from LAADS DAAC (https://ladsweb.modaps.eosdis.
+inCO,77.3%decreaseinNOand54.3%decreaseinNO2,with~30% nasa.gov/).Foreachday,thelevel2productincludesanumberof
+increaseinO3concentrationsoverSaoPaulo,Brazil,duringpartial fileswhichcoversdifferentpartsofthesatelliteswath,combined
+lockdown due to COVID-19. Krecl et al. (2020) and Dantas et al. overtheIndianregiontogetadailypictureofAOD.
+(2020) also reported reductions in pollutant concentrations over For information on NO2 and SO2 concentration, we use high-
+differentsitesofSaoPauloandRiodeJaneiro,Brazil,duringCOVID- resolution daily data from the TROPOspheric Monitoring Instru-
+19lockdown.ReductionofpollutantsoverEuropeduringCOVID-19 ment(TROPOMI)aboardSentinel-5PrecursorprovidedbytheEu-
+lockdownwasreportedbyCollivignarellietal.(2020)andMenut ropeanSpaceAgency(Pedergnanaetal.,2018;Eskesetal.,2019;
+et al. (2020). The results proposed ~30e50% reductions in NO2 Hedelt et al., 2019). The spatial resolution is 0.01 arc degrees
+and a significant reduction in PM2.5 over western European (7 (cid:1) 3.5 km2) for both NO2 and SO2. The TROPOMI datasets are
+countries. obtainedfromtheGoogleEarthEngine(GEE)(Gorelicketal.,2017),
+Over Asia, the air pollution levels significantly reduced over an open source online platform for analysis and visualization of
+variouscountriesduringCOVID-19lockdown/restrictions.Juetal. scientific datasets, which provides Level 3 data from the original
+(2020) reported reductions in PM2.5, PM10, NO2 and CO over Ko- Level2TROPOMIdatasets.Thelocationdetails,powergeneration
+rea during the preventive measure periods. Analysis of PM and capacity,annualcoalconsumption,andannualemissionsrelatedto
+tracegasesoverChinasuggestedthatthereductionsweresignifi- coal-fired power plants are taken from Guttikunda and Jawahar
+cantduringCOVID-19lockdownforallregions(e.g.,Heetal.,2020; (2014),Sahuetal.(2017)andGuttikundaandJawahar(2018).In-
+WangandSu,2020;BaoandZhang,2020).Significantreductionsin formation related to COVID-19 is taken from WHO (2020),
+pollutantswasalsoobservedovermostofthemegacitiesofIndia covid19india.organdtheCOVID-19pageoftheofficialGovernment
+during COVID-19 lockdown (e.g., Shehzad et al., 2020; Jain and ofIndiawebsite:https://www.mygov.in/covid-19.
+Sharma, 2020; Kumar et al., 2020; Sharma et al., 2020; Navinya Tostudythevariationsofaparticularparameter,wefirstaver-
+etal.,2020).Onanaverage,therewas~40%reductioninPMand agedthedataforthedaysbeforeandafterlockdownfortheyear
+~30e70%reductioninNO2overmajorcitiesinIndiaaccordingto 2020, and then compared them with that of 2019. The Menn-
+mostofthestudies(Singhetal.,2020;Metyaetal.,2020).However, Kendall test (MKT) was employed to find a long-term trend in
+Ranjanetal.(2020)identifiednosubstantialreductioninaerosol AOD over India. MKT is a non-parametric test widely used for
+opticaldepth(AOD)overcentralandeasternregionsofIndiawhich analyzingtrendsinvariousresearchfieldsintimeseriesorspatial
+are associated with coal mining even during the COVID-19 variationofparameters(e.g.,Asokaetal.,2017;Vissaetal.,2019).
+lockdown. MKTtakesthenullhypothesisasnomonotonictrendispresentina
+Air pollution shows a significant spatio-temporal variation in timeseries,andthetrendvaluesmaybepositiveornegative.For
+Indiaasacombinedresultofindustrialproduction,powergener- MKT, the statistical significance is at the 95% confidence level
+ation,trafficandroad-dustemissions,cooking,agriculturalwaste (p < 0.05) in the present study. The mathematical details of the
+burning, and construction activity (Guttikunda and Calori, 2013). functioncanbeobtainedfromSen(1968),andSen’sslopeisaclear
+Futureprojectionstudiesfoundanunprecedentedincreaseinthe indication for the trend values. The percentage change of any
+emissionofCO2,PM,SO2,andotherpollutantsforIndia(Upadhyay particular parameterhas been calculated for 2020 in the present
+etal.,2018).ThereductioninairpollutionduringCOVID-19lock- studybytakingvaluesof2019asbase.
+down provides an opportunity to re-draw maps of natural and
+reduced emissions to understand the baseline air pollution over 3. Results
+differentregions.
+ThepresentworkinvestigatesthespatialvariationinAOD,NO2, 3.1. VariationandtrendincolumnarAOD
+andSO2fromsatellitemeasurementsovertheIndianregionduring
+theCOVID-19lockdown(24March(cid:4)31May2020).Thelockdown AOD variations during the COVID-19 lockdown can be better
+periodiscomparedtothesameperiodof2019toidentifychanges understoodbyknowingtheaveragetrendsinAODduringthepre-
+intheairpollutionpatternsoverIndia.Theobjectiveofthepresent monsoon season (MarcheMay). We have calculated average
+workis(a)toquantifythereductionvariationoverthecountryand columnar AOD variations for pre-monsoon using MODIS TERRA
+(b) to identify the regions where emission reductions were less Level3(1(cid:3)(cid:1)1(cid:3)gridded)data(Fig.1(a))fortheperiod2000e2017.
+significantduringthelockdownandthebaselinevalueswerehigh. The Indo-Gangetic plain (IGP) shows high levels of particulate
+Theresultswillalsoallowustorelateandvalidatethefindingswith pollution (with AOD values greater than 0.5), as reported in the
+earlierprojectedmodelresultsofhotspotairpollutionregionsin literature for all the seasons throughout the year; however, the
+Indiaforthefuture.ThoughthereareafewstudiesonIndiastating concentrations are highest during monsoon followed by winter,
+the reduction in pollutants over megacities, the novelty of the pre-andpost-monsoonseasons(e.g.,Deyetal.,2012;DeyandDi
+present work lies in understanding the higher emission baseline Girolamo, 2010; Gogikar and Tyagi, 2016). The high values of
+regionsandtheexistinghotspotregionsevenduringtheCOVID-19 columnarAODduringthemonsoonoverIGPareduetopresenceof
+lockdownperiod. sea-saltaerosolsandhygroscopicgrowthoffineparticulatesother
+than urban areas’ contribution (Kumar et al., 2018). Though, the
+2. Dataandmethodology monsoon AOD climatology could be biased toward observations
+duetodifficultyinsatellitedataretrievalsduringactivemonsoon
+The area of the study is India. DarkTargetDeep Blue (DT-DB) phases. The chance of successful retrievals of aerosol optical
+aerosol product of the Moderate Resolution Imaging Spectro- properties from satellite is higher during the break monsoon
+2
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+Fig.1. MeanTerra-MODISAOD(L3,1(cid:3)x1(cid:3)gridded)overIndiabetweenMarchandMayfrom2000to2017(a)andSen’sslopevaluesforAODduringthattimeperiod.Bluedots
+marksignificanttrends.(Forinterpretationofthereferencestocolourinthisfigurelegend,thereaderisreferredtotheWebversionofthisarticle.)
+phases than in active monsoon phases because of higher cloud b,upperrow).Duringthepre-lockdownperiodfrom1toMarch23,
+coverage in the active phases. The presence of elevated aerosol 2020(middlerow),highvaluesofAODwereuniformlydistributed
+layersoverIndiaisfrequentduringpre-monsoonascomparedto overIGPandeasternIndia(OdishaandWestBengal).Duringthe
+monsoon.Evenhighervaluesofaround0.8arefoundovernorth- lockdown(Fig.2h),AODdecreasedovermostpartsofIndia,except
+eastern India and the adjoining parts of Bangladesh for pre- western India (Maharashtra) and eastern India (Odisha, West
+monsoon season. These higher AOD values are primarily associ- Bengal,andJharkhand)withsomepartsofIGP(Biharandeastern
+ated with frequent thunderstorms over the region (Tyagi and Uttar Pradesh), where higher AOD values still persisted. The per-
+Satyanarayana, 2015), allowing the polluted air masses to uplift centagechangeinAODbetween2019and2020intherightcolumn
+vertically and increasing the overall AOD values (Ramachandran ofFig.2showsabout~25%reductioninAODforpartsofnorthern
+and Rupakheti, 2021). IGP is the region of high concentration of and southern Indiaand some locationsin IGP for thewhole pre-
+other pollutants (NOX, CO and O3) as well for both annual and monsoonperiod(Fig.2c).ThisagreeswiththefindingsofKumar
+seasonalvariations(Ghudeetal.,2008;Karetal.,2010;Yangetal., et al. (2020) and Jain and Sharma (2020). During pre-lockdown,
+2017;Rupakhetietal.,2018). the percentage change shows higher AOD values during 2020
+Applying the Menn-Kendall statistical test, the trends in AOD (Fig. 2f), except over the coastal districts of eastern India and
+(Fig.1(b))showspositivetrendvaluesovereastern,southern,and Gujaratinthewest,highlightingsignificantincreaseofAODover
+northeasternIndia,andnegativetrendvaluesoverpartsofwestern whole India in 2020. For the percentage change in AOD during
+India(GujaratandRajasthan).Significantregionsaremarkedwith lockdown,mostofIndiashowadecreaseinAOD(~25%);however,
+blue dots over the figure; it is evident that the trend in both the western (Maharashtra), central (Chhattisgarh and Madhya
+western and eastern-southern sector of India is significant. It is Pradesh)andeasternregions(Odisha,WestBengal,andJharkhand)
+interestingtonotethateventhoughIGPhasbeenanairpollution showincreasedvalues(between25and50%).Similarfindingsofno
+hotspotfordecades,positivetrendsinAODaremostlyabsent.In reduction in PM2.5 and PM10 values during COVID-19 over an
+contrast,easternstatesOdishaandWestBengalshowlargepositive eastern India station Bhubaneswar have been reported by Sahu
+trendsforAOD. etal.(2020).
+Thoughthelockdownwasimplementedcountrywideuniformly
+andvehicularandindustrialemissionsceasedtoalmostzero,the
+3.2. ColumnarAODvariationduringCOVID-19
+increaseinAODoverthewestern,central,andeasternpartofthe
+country is unexpected. These persistently high values can be
+Fig.2presentsMODISTerraAOD(using10km(cid:1)10km,Level2
+attributedtotheoperationalcoal-firedpowerplantsintheregions
+data) for the entire pre-monsoon season, the pre-lockdown, and
+(GuttikundaandJawahar,2014)andcontinuouscoalminesoper-
+lockdown phases to show the associated changes in particulate
+ation during the lockdown (Ranjan et al., 2020). Emissions from
+pollution.ThefigurealsoshowsAODmapsforthesametimepe-
+coal-firedpowerplantsmayspreadwidelyandcoverareasinthe
+riodsof2019andthecalculatedpercentagechangebetween2019
+order of 150e200 km in radius (Guttikunda and Jawahar, 2018),
+and 2020. It is interestingtonote that by utilizing the data from
+with an expected aerosol lifetime of 1e2 weeks (Seinfeld and
+2019to2020,IGPandeasternIndia(OdishaandWestBengal)are
+Pandis,2016).
+regionswithhigherAODvaluescomparedtotherestofIndia,as
+seeninFig.1.ThesamecalculationswerealsomadeusingLevel3
+data,whichshowssimilarvariationsandhotspotregions(Fig.S1). 3.3. TroposphericcolumnarNO2variationduringCOVID-19
+ThepatternofincreasedAODisverysimilarwhenconsidering
+theentirepre-monsoonseasoninboth2019and2020(Fig.2aand Tropospheric NO2 plays a significant role in determining air
+3
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+Fig.2. TotalcolumnarMODISTerraAOD(L2,10(cid:1)10km)for2019(leftcolumn)and2020(middlecolumn),andassociatedpercentagechange(rightcolumn)forthetimeperiods
+from1Marchto31May(premonsoon,firstrow),1Marchto23March(prelockdown,middlerow)and24Marchto31May(lockdownperiod,bottomrow).
+quality by acting as a precursor for O3 formation and secondary Odisha,andJharkhand),thenortheasternregion(AssamandMiz-
+organicaerosols(Atkinsonetal.,2018).Ghudeetal.(2008)found oram),thenorthernregion(Delhiandnearbyregions)aswellasa
+thattroposphericNO2concentrationswerehighestinthesummer/ fewsmallerhotspotsinsouth(Telangana,AndhraPradesh,Karna-
+pre-monsoon season over the Indian region, followed by winter, taka,andTamilNadu)andwest(MaharashtraandGujarat)ofthe
+post-monsoonandmonsoonseasons.However,inallseasons,the country(Fig.3a).
+highestconcentrationregionwasIGP,foranaverageof2003e2006 The overall pre-monsoonpicture in 2020 (Fig. 3b) reveals the
+inthestudybyGhudeetal.(2008),withvisiblehotspotsoverother easternregionasadominantemissionhotspotinIndia.Duringthe
+parts of India. Columnar NO2 measurements fromTROPOMI pro- pre-lockdown period, there was a significant decrease in NO2
+vide reasonable estimates of NO2 with a high spatial resolution concentrations for 2020 over the Indian region (Fig. 3d and e),
+(Eskes et al., 2019). Due to COVID-19 related lockdowns and which can be ~15e30% except in northern India (Rajasthan, Har-
+reductioninvehicularandindustrialemissions,theconcentration yana,andPunjab)andhotspotregionsinOdisha,WestBengal,and
+oftroposphericNO2hasdecreasedglobally(Bauwensetal.,2020). Jharkhand,wherevaluesincreased~20e30%in2020(Fig.3f).The
+Fig. 3 shows the change in NO2 concentration over India be- datatakenduringthelockdownperiod(Fig.3gandh)showonly
+tweenpre-monsoon,pre-lockdownandlockdownperiodsof2019 theeasternIndiahotspotwhileothersourcesdisappear.Thisdif-
+and 2020. The data of 2019 reveals various hotspot regions of ference is not observed for the week leading to the lockdown
+tropospheric NO2 emissions over eastern India (West Bengal, (Fig.3e).Thepercentagechange(Fig.3i)quantifiesthedecreasein
+4
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+Fig.3. TROPOMIcolumnarNO2concentrationsandpercentagechangeoverIndiafor2019(leftcolumn)and2020(middlecolumn),andassociatedpercentagechange(right
+column)forthetimeperiodsfrom1Marchto31May(premonsoon,firstrow),1Marchto23March(prelockdown,middlerow)and24Marchto31May(lockdownperiod,bottom
+row).
+NO2 concentrations as ~30% for most of the regions except over andJharkhand),evenduringthelockdown.
+partsofGujaratandMaharashtraandhotspotregionsofOdishaand BecauseoftheshortlifetimeofNO2(aboutoneday)compared
+West Bengal. In these areas, NO2 concentration has increased to aerosols (Seinfeld and Pandis, 2016), it is less likely that NO2
+despitethelockdown(~15e30%). emissionsaredispersedinthesamewayasmighthappeninthe
+Previously,Ghudeetal.(2008)usedmonthlydatafromGOME case of AOD. Percentage change results (right column in Fig. 3)
+(March1996toDecember2002)andSCIAMACHY(January2003to indicate that before the lockdown, northern states of Haryana,
+December2006)toidentifyhotspotsoftroposphericNO2concen- Punjab,andHimachalPradeshmarkapositivepercentagechange,
+trationsoverIndia.Whiletheirfindingsareingeneralagreement indicating higher emissions in 2020. Another important observa-
+with our results for 2019, we find that the hotspot regions have tionisthestrongemissionofNO2inthestatesofMaharashtraand
+changedtheirintensitysinceGhudeetal.(2008)asaresultofin- MadhyaPradesh(centraltowesternIndia)duringlockdown(Fig.3
+crease in the number of power plants over Odisha, West Bengal, (i))thatoccurredoveralargeareawithouteasilydistinguishable
+andJharkhand(Sahuetal.,2017;GuttikundaandJawahar,2018). hotspots,particularlynearMumbai.Theseresultsidentifyeastern
+Similartothecaseofparticulatepollution(AOD),thehighestNO2 (Odisha, West Bengal, and Jharkhand) and western (Maharashtra
+concentrationsarefoundovereasternIndia(Odisha,WestBengal, and parts of Gujarat) regions as producing higher emissions in
+5
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+2020, even during the lockdown. The reduction in NO2 despite power plants. The quantity of SO2 emissions in India is further
+higher AOD values in certain regions may be attributed to the relatedtothequalityoftheburntfuel(Chakrabortyetal.,2008).In
+continuousbiomassburning,thusmaintaininghigherAODvalues, Fig.4,easternIndia(Odisha,WestBengal,andJharkhand)andparts
+but the restricted vehicular and industrial emission reduced the ofcentralIndia(mainlyChhattisgarh)emergeassignificanthotspot
+NO2concentrations(RamachandranandRupakheti,2021). areaintheanalysisofSO2overIndiaforthepre-monsoonseasonof
+2019and2020.For2019,therearealsoincreasedvaluesinnorth-
+ernandcentralIndia(particularlynearDelhiandMumbai),butthe
+3.4. TroposphericcolumnarSO2variationduringCOVID-19
+highestconcentrationsarefoundovereasternIndia.
+Theplotsforthepre-lockdownperiodof2020(Fig.4e)clearly
+Tropospheric SO2 seasonal variation over India shows the
+show dominance of the hotspot region in eastern India (Odisha,
+highest concentrations during winter followed by post-monsoon,
+WestBengal,andJharkhand),similarto2019(Fig.4d).Overall,pre-
+pre-monsoon, and monsoon seasons. The highest concentration
+lockdown analysis for 2020 shows several new locations with
+regionsareIGPandeasternIndia(regionsofOdisha,WestBengal,
+and Jharkhand; Chutia et al., 2020). The primary source of SO2
+increased values of SO2 concentration compared to 2019, which
+emissionisthecombustionoffossilfuel,mainlyfromthecoal-fired suggestsagrowthinindustrializationandotheremissions.During
+Fig.4. TROPOMIcolumnarSO2concentrationsandpercentagechangeoverIndiafor2019(leftcolumn)and2020(middlecolumn),andassociatedpercentagechange(right
+column)forthetimeperiodsfrom1Marchto31May(premonsoon,firstrow),1Marchto23March(prelockdown,middlerow)and24Marchto31May(lockdownperiod,bottom
+row).
+6
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+thelockdown(thebottomrowofFig.4),whileotheremissionspots et al., 2019). Urbanization and international trade is also one
+decreasedinSO2concentration(Fig.4h),dominantemissionregion important reason for changed CO2 emissions across India
+wasagainidentifiedovereasternIndia.Thislackofsourcesinother (Muhammadetal.,2020b).
+partsofthecountryisnotfoundfor2019(Fig.4g). Though the present study deals with the analysis of NO2, SO2
+The percentage change variation from 2019 to 2020 shows a and AOD, it is focused on possible emissions over regions which
+substantialdecreaseinSO2(~60e70%)forthemostpartsofIndiaas were operative even during the lockdown. Emissions from coal-
+indicatedbySharmaetal.(2020).However,overtheeasternregion, fired power plants can deteriorate the environment to a high
+thereisonlyaslight decreaseoverafewpocketsin SO2 concen- extent(Crandall,1983).TheirroleinpoorairqualityoverIndiahas
+tration. The hotspot regions of Odisha and West Bengal show beenafocusofextensiveresearch(GuttikundaandJawahar,2014,
+positivepercentagechange(~45e50%duringthelockdown),indi- 2018; Sahu et al., 2017). For AOD, whereas most of the country
+cating that even during the lockdown, emissions were higher in recordedadecreaseof~25%inAODvalues,Odisha,WestBengal,
+2020. Jharkhand, Madhya Pradesh, Chhattisgarh, and Maharashtra
+Thereasoncanbeattributedtothedensenetworkofhighca- recordedanincrease(25e50%)duringthelockdown.Exceptparts
+pacitycoal-firedpowerplants,withnewplantsoperationalin2020 ofOdisha,WestBengal,andMaharashtra,whichemergeashotspot
+(GuttikundaandJawahar,2018).Additionally,higherSO2emissions regionsofNO2duringthelockdown(withanincreaseof~15e30%),
+overeasternIndiamayberelated to coalmining,whichiswide- restofthecountrymarkedadecreaseof~30%inNO2concentra-
+spreadinthispartofthecountry(https://coal.nic.in),forcheapfuel tionswhileSO2decreasedsubstantially(~60e70%)overthewhole
+fordomesticheatingandcooking(Lietal.,2018).Thesimilaritiesof country, except in hotspot regions of West Bengal, Odisha, and
+thespatialextentintheconcentrationofSO2andNO2indicatethat Rajasthan,wheretheincreasewas~45%duringthelockdown.
+they both originate from the same sources, i.e., coal-fired power ThereasontofocusonhotspotregionsinIndiaistopreparefor
+plantsandcoalminingregionsofthecountry. theassociatedhealthcomplicationsoverdenselypopulatedareas
+ofeasternIndia(~270e1029/km2,accordingtothecensusof2011)
+and to understand the relative change in their location with
+4. Discussion
+changingenergyproductionstatistics(fromIGPtoeasternIndia).
+Another reason is to make lawmakers aware of these trans-
+Understandingthechangingairpollutionscenarioisimportant
+formationsforpossiblechangesinpoliciesoverdifferentregionsto
+fordeveloping countriesin decreasingthedisease burdenandto
+tackle the increased/changing patterns of the pollutants. Fig. 5
+prevent the environmental degradation. One common proxy for
+shows the location of major power plants together with major
+understanding the changed emission scenario over developing
+metallic and non-metallic mineral distribution across India. It is
+countries like India and China is to analyze CO2 emissions (Luo
+interesting to note that the hotspot region of NO2, SO2 and AOD
+et al., 2020). Several studies suggested that various factors indi-
+duringthecountrywidelockdowncoincidedwiththedensecluster
+rectlyplayanimportantroleinchangingtheairpollutionscenario of coal-fired power plants, several mines, and the central coal
+overlower-middleincomecountrieslikeIndia,includingendoge-
+reserveofthecountry,locatedmostlyinthestatesofOdisha,West
+nous and foreign innovation, imports and exports, and several
+Bengal,Jharkhand,andChhattisgarh.
+otherinstitutionalfactorsincludingpoliticalstability,foreigndirect
+Thoughidentifyingtheseareasasahotspotairpollutionzoneis
+investment,andincomelevel(MuhammadandLong,2021;Salman
+Fig.5. (a)LocationofmajorcoalfiredthermalpowerplantsafterGuttikundaandJawahar(2018)withcapacities>2000MW(red),of1000e2000MW(yellow),and<1000MW
+(green);(b)locationofmetallicandnon-metallicmineraldistributioninIndia(adoptedfromhttp://ismenvis.nic.in/).TheregionwithobservedNO2andSO2hotspotsismarkedby
+theboxin(a)and(b).(Forinterpretationofthereferencestocolourinthisfigurelegend,thereaderisreferredtotheWebversionofthisarticle.)
+7
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+not new (e.g., Ghude et al., 2008; Sahu et al., 2017), the critical duringthelockdown.Thisairpollutionhotspotregionwasstill
+observationisthatdespitethestrictlockdowninthecountry,when activeevenwhenotherairpollutionhotspotregionsoverIndia
+allotherhotspotsdiminished,theseparticularregionsshowedno showedasubstantialdecreaseduringthelockdown.
+decrease in emissions. Even though vehicular emissions ceased (cid:5) The primaryemissions can be attributed to a dense cluster of
+practicallytozeroandindustrieswerenotoperationalduringthe coal-fired power plants in eastern India. These plants were
+lockdown, the hotspot zones of NO2 and SO2 over eastern India continuouslyoperationalduringthelockdownaswastheresi-
+maintainedbecauseofthecontinuousoperationofcoal-firedpo- dentialburningofcoalasfuelandnoshutdownofcoalmining
+wer plants, which could not be shut down due to power re- intheregion.
+quirements. Residential burning of coal for household cooking is (cid:5) Consideringtheupcomingpowerplantestablishmentplansin
+another factor for the increased values. Since the industrial coal- eastern India, the present study identifies eastern India as a
+consumingmayhavebeenreduced,theresidentialburningmight peculiarhotspotregionofairpollutioninthecountry.
+haveincreasedduringthestudyperiod,whichcannotbeseparated
+based on the columnar data from the satellite. The exact data of The limitations of the work include correlating the coal con-
+coal-burning byindustries isrequiredduring the study period to sumption data by different power plants and residential burning
+quantifydifferentcontributors. areas with amountof air pollutants during the study period. The
+ThesehighSO2valuesmatchwithregionswithreportedhigher resultsadvocateanimmediateneedforimprovedemissionregu-
+fossil fuel consumption and SO2 emissions in eastern India for lationsineasternIndia.
+1996e1997(ReddyandVenkataraman,2002a;2002b).Projection
+studiessuggestthatOdisha,WestBengal,andJharkhandwillhave CRediTauthorstatement
+thehighestPM2.5pollutionload(withmaximumvaluesof11.5,14.1
+and 11.5 mg/m3 in 2020) due to planned expansion of coal-fired Bhishma Tyagi: Conceptualization, Methodology, Writing e
+power plants (Guttikunda and Jawahar, 2018) and high CO2 pro- originaldraft, Software,GoutamChoudhury:Software, Writing e
+ductionwithavalueof25e35kt/year(Sahuetal.,2017). review&editing,NareshKrishnaVissa:Software,Writingereview
+Regions with increased AOD in eastern (West Bengal, Odisha, & editing, Jyotsna Singh: Writing e review & editing, Matthais
+and Jharkhand), central (Chhattisgarh and Madhya Pradesh) and Tesche:Writingereview&editing
+westernIndia(Maharashtra)beforeandduringlockdownin2020
+are another observation from the results, which partly can be Declarationofcompetinginterest
+attributed to coal-fired power plants. Considering the plans for
+upcoming power plants in the country (Guttikunda and Jawahar, The authors declare that they have no known competing
+2018), the regions of low air quality identified here are going to financial interests or personal relationships that could have
+include even denser clusters of coal-fired power plants in next appearedtoinfluencetheworkreportedinthispaper.
+decade.Giventhecurrentdevelopments,theeastern,central,and
+westernpartsofIndiaaregoingtobecomethenewhotspotregions Acknowledgements
+forenvironmentalpollutioninthenextdecade.Theanalysisofthe
+airqualityduringthelockdowngivesaclearindicationofthingsto Authors are thankful to NASA Goddard Space Flight Center
+come.Evenifemissionsarecuttoaminimum,easternIndiawillbe (GSFC)andAtmosphereArchiveandDistributionSystem(LAADS)
+stillaffectedbyhighloadsofpollutantsemittedbycoal-firedpower
+for making the level-2 and level-3 MODIS datasets available. Au-
+plants. thors are grateful to the Google Earth Engine developers for
+The country is developing fast and electricity is needed to providingtheTROPOMIdatasetandforprovidinganopensource
+supportthischange.Whileitisnotfeasibletostopthisdevelop- andnon-profitplatformforsatellitedataanalysisandvisualization.
+ment, a shift towards better policies for emission controls are Authorsacknowledgetheconstanteffortsofallthepublicandnon-
+needed to protect the population and to improve environmental publicinstitutionsintacklingtheglobalCOVID-19pandemic.We
+conditions.Agoodexampletosuchpracticalchangesinthepolicy arealsothankfultotheEditor,Prof.AdmirCresoTarginoandthree
+relatedtoairqualitycomesfromChina,whereafterenforcingstrict anonymousreviewersfortheirconstructivesuggestionstoimprove
+regulationsontheenergysector,emissionsfrompowerplantswere the quality of the manuscript. Authors want to acknowledge
+reducedbymorethan13%(vanderAetal.,2017;Nietal.,2018; DepartmentofScienceandTechnology,Govt.ofIndiaforproviding
+Karplusetal.,2018).Ultralowemissiontechniquessuchasfuelgas the funding [project-funding code: DST/CCP/Aerosol/90/2017(G),
+desulfurization, retrofitted electrostatic precipitation, and wet under SPLICE, Climate change, National Network Programme on
+electrostatic precipitation have been found to be helpful in Aerosol].
+reducingthecoal-firedpowerplantsemissionoverChinainthelast
+decade(Nietal.,2018;Suietal.,2016).ForeasternIndia,adoption
+AppendixA. Supplementarydata
+of these techniques by the power plant industry may result in a
+reducedamountofairpollutionloadovertheregion.
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.envpol.2020.116354.
+5. Conclusions
+References
+The present results shows a shift of air pollution hotspot to
+easternIndia.Thefindingscanbesummarizedasfollows:
+Adams,M.D.,2020.AirpollutioninOntario,CanadaduringtheCOVID-19stateof
+emergency.Sci.TotalEnviron.742,140516.
+(cid:5) ThecolumnarAODvaluesoverwestern(Maharashtra),central Asoka,A.,Gleeson,T.,Wada,Y.,Mishra,V.,2017.Relativecontributionofmonsoon
+precipitationandpumpingtochangesingroundwaterstorageinIndia.Nat.
+(Chhattisgarh and Madhya Pradesh) and eastern India (West Geosci.10(2),109e117.
+Bengal,Odisha,andJharkhand)arehigherin2020thanin2019, Atkinson,R.W.,Butland,B.K.,Anderson,H.R.,Maynard,R.L.,2018.Long-termcon-
+evenduringthelockdown. centrationsofnitrogendioxideandmortality:ameta-analysisofcohortstudies.
+(cid:5) EasternIndia(WestBengal,Odisha, andJharkhand)wasiden- Epidemiology29(4),460.
+Bao,R.,Zhang,A.,2020.Doeslockdownreduceairpollution?Evidencefrom44
+tified as a hotspotemission region for columnar NO2 and SO2 citiesinnorthernChina.Sci.TotalEnviron.731,139052.
+8
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+Bauwens, M., Compernolle, S., Stavrakou, T., Müller, J.F., Van Gent, J., Eskes, H., reductioninfineparticulatematterdueto‘anthropogenicemissionsswitch-
+Levelt, P.F., van der A, R., Veefkind, J.P., Vlietinck, J., Yu, H., 2020. Impactof off’duringCOVID-19lockdowninIndiancities.Sustain.CitiesSoc.102382.
+coronavirusoutbreakonNO2pollutionassessedusingTROPOMIandOMIob- Kumar, M., Parmar, K.S., Kumar, D.B., Mhawish, A., Broday, D.M., Mall, R.K.,
+servations.Geophys.Res.Lett.47(11),2020GL087978. Banerjee, T., 2018. Long-term aerosol climatology over Indo-Gangetic Plain:
+Berman, J.D., Ebisu, K., 2020. Changes in US air pollution during the COVID-19 trend,predictionandpotentialsourcefields.Atmos.Environ.180,37e50.
+pandemic.Sci.TotalEnviron.739,139864. Levy,R.C.,Mattoo,S.,Munchak,L.A.,Remer,L.A.,Sayer,A.M.,Patadia,F.,Hsu,N.C.,
+Bherwani,H.,Nair,M.,Musugu,K.,Gautam,S.,Gupta,A.,Kapley,A.,Kumar,R.,2020. 2013.TheCollection6MODISaerosolproductsoverlandandocean.Atmos.
+Valuationofairpollutionexternalities:comparativeassessmentofeconomic Meas.Tech.6(11),2989e3034.
+damageandemissionreductionunderCOVID-19lockdown.AirQual.Atmos. Levy,R.C.,Remer,L.A.,Mattoo,S.,Vermote,E.F.,Kaufman,Y.J.,2007.Second-gen-
+Health13,683e694. erationoperationalalgorithm:retrievalofaerosolpropertiesoverlandfrom
+Bilal,M.,Qiu,Z.,Campbell,J.R.,Spak,S.N.,Shen,X.,Nazeer,M.,2018.AnewMODIS inversionofModerateResolutionImagingSpectroradiometerspectralreflec-
+C6DarkTargetandDeepBluemergedaerosolproductona3kmspatialgrid. tance.J.Geophys.Res.Atmos.112(D13).
+Rem.Sens.10(3),463. Li,X.,Wu,J.,Elser,M.,Tian,F.,Cao,J.,El-Haddad,I.,Huang,R.,Tie,X.,Pre(cid:3)vo^t,A.S.,
+Chakraborty, N., Mukherjee, I., Santra, A.K., Chowdhury, S., Chakraborty, S., Li,G.,2018.Contributionsofresidentialcoalcombustiontotheairqualityin
+Bhattacharya,S.,Mitra,A.P.,Sharma,C.,2008.MeasurementofCO2,CO,SO2, BeijingeTianjineHebei(BTH),China:acasestudy.Atmos.Chem.Phys.18(14),
+andNOemissionsfromcoal-basedthermalpowerplantsinIndia.Atmos.En- 10675e10691.
+viron.42(6),1073e1082. Luo, Y., Lu,Z.,Long,X., 2020.Heterogeneouseffects ofendogenousand foreign
+Chauhan,A.,Singh,R.P.,2020.DeclineinPM2.5concentrationsovermajorcities innovationonCO2emissionsstochasticconvergenceacrossChina.EnergyEcon.
+aroundtheworldassociatedwithCOVID-19.Environ.Res.187,109634. 91,104893.
+Chutia,L.,Ojha,N.,Girach,I.A.,Pathak,B.,Sahu,L.K.,Bhuyan,P.K.,2020.Distribution Menut,L.,Bessagnet,B.,Siour,G.,Mailler,S.,Pennel,R.,Cholakian,A.,2020.Impact
+ofSulfurDioxideoverIndianSubcontinent:RemoteSensingObservationsand oflockdownmeasurestocombatCovid-19onairqualityoverWesternEurope.
+ModelReanalysis.URSIGASS2020,Rome,Italy;29Aug.-5Sep.2020,pp.1e4. Sci.TotalEnviron.741,140426.
+Collivignarelli,M.C.,Abb(cid:1)a,A.,Bertanza,G.,Pedrazzani,R.,Ricciardi,P.,Miino,M.C., Metya, A., Dagupta, P., Halder, S., Chakraborty, S., Tiwari, Y.K., 2020. COVID-19
+2020.LockdownforCoViD-2019inMilan:whataretheeffectsonairquality? lockdownsimproveairqualityintheSouth-EastAsianregions,asseenbythe
+Sci.TotalEnviron.732,139280. remotesensingsatellites.AerosolAirQual.Res.20,1772e1782.
+Crandall,R.W.,1983.ControllingIndustrialPollution:theEconomicsandPoliticsof Muhammad, S., Long, X., 2021. Rule of law and CO2 emissions: a comparative
+CleanAir.BrookingsInstitution,Washington,DC. analysisacross65beltandroadinitiative(BRI)countries.J.Clean.Prod.279,
+Dantas,G.,Siciliano,B.,França,B.B.,daSilva,C.M.,Arbilla,G.,2020.Theimpactof 123539.
+COVID-19partiallockdownontheairqualityofthecityofRiodeJaneiro,Brazil. Muhammad, S., Long, X., Salman, M., 2020a. COVID-19 pandemic and environ-
+Sci.TotalEnviron.729,139085. mentalpollution:ablessingindisguise?Sci.TotalEnviron.138820.
+Dey,S.,DiGirolamo,L.,2010.Aclimatologyofaerosolopticalandmicrophysical Muhammad,S.,Long,X.,Salman,M.,Dauda,L.,2020b.Effectofurbanizationand
+propertiesovertheIndiansubcontinentfrom9years(2000e2008)ofMulti- internationaltradeonCO2emissionsacross65beltandroadinitiativecoun-
+angle Imaging Spectroradiometer (MISR) data. J. Geophys. Res. Atmos. 115 tries.Energy196,117102.
+(D15). Nakada,L.Y.K.,Urban,R.C.,2020.COVID-19pandemic:impactsontheairquality
+Dey,S.,DiGirolamo,L.,vanDonkelaar,A.,Tripathi,S.N.,Gupta,T.,Mohan,M.,2012. duringthepartiallockdowninSa~oPaulostate,Brazil.Sci.TotalEnviron.730,
+Variability of outdoor fine particulate (PM2. 5) concentration in the Indian 139087.
+Subcontinent:aremotesensingapproach.RemoteSens.Environ.127,153e161. Navinya, C., Patidar, G., Phuleria, H.C., 2020. Examining effects of the COVID-19
+Dutheil,F.,Baker,J.S.,Navel,V.,2020.COVID-19asafactorinfluencingairpollution? national lockdown on ambient air quality across urban India. Aerosol Air
+Environ.Pollut.263(A),114466. Qual.Res.20,1759e1771.
+Eskes,H.,vanGeffen,J.,Boersma,F.,Eichmann,K.U.,Apituley,A.,Pedergnana,M., Ni,Z.Z.,Luo,K.,Gao,Y.,Gao,X.,Fan,J.R.,Cen,K.F.,2018.Potentialairqualityim-
+Sneep,M.,Veefkind,J.P.,Loyola,D.,2019.Sentinel-5Precursor/TROPOMILevel2 provements from ultralow emissions at coal-fired power plants in China.
+ProductUserManualNitrogenDioxide.MinistryofInfrastructureandWater AerosolAir.Qual.Res.18,1944e1951.
+Management, Royal Netherland Meteorological Institute, p. 147. Document Pedergnana,M.,Loyola,D.,Apituley,A.,Sneep,M.,Veefkind,J.P.,2018.Sentinel-5
+Number:S5P-KNMI-L2-0021-MA. Precursor/TROPOMILevel2ProductUserManualSulphurDioxideSO2,Min-
+Ghude,S.D.,Fadnavis,S.,Beig,G.,Polade,S.D.,VanDerA,R.J.,2008.Detectionof istryofInfrastructureandWaterManagement.RoyalNetherlandMeteorolog-
+surfaceemissionhotspots,trends,andseasonalcyclefromsatellite-retrieved icalInstitute,p.157.DocumentNumber:S5P-L2-DLR-PUM-400E.
+NO2overIndia.J.Geophys.Res.Atmos.113(D20). Ramachandran, S., Rupakheti, M., 2021. Inter-annual and seasonal variations in
+Gogikar, P., Tyagi, B., 2016. Assessment of particulate matter variation during optical and physical characteristics of columnar aerosols over the Pokhara
+2011e2015overatropicalstationAgra,India.Atmos.Environ.147,11e21. ValleyintheHimalayanfoothills.Atmos.Res.248,105254.
+Gorelick,N., Hancher,M., Dixon,M., Ilyushchenko,S., Thau, D.,Moore,R.,2017. Ranjan,A.K.,Patra,A.K.,Gorai,A.K.,2020.EffectoflockdownduetoSARSCOVID-19
+GoogleEarthengine:planetary-scalegeospatialanalysisforeveryone.Remote onaerosolopticaldepth(AOD)overurbanandminingregionsinIndia.Sci.
+Sens.Environ.202,18e27. TotalEnviron.745,141024.
+Guttikunda,S.K.,Calori,G.,2013.AGISbasedemissionsinventoryat1km(cid:1)1km Reddy, M.S.,Venkataraman,C., 2002a.Inventoryof aerosolandsulphurdioxide
+spatialresolutionforairpollutionanalysisinDelhi,India.Atmos.Environ.67, emissions from India: Idfossil fuel combustion. Atmos. Environ. 36 (4),
+101e111. 677e697.
+Guttikunda,S.K.,Jawahar,P.,2014.Atmosphericemissionsandpollutionfromthe Reddy,M.S.,Venkataraman,C.,2002b.Inventoryofaerosolandsulphurdioxide
+coal-firedthermalpowerplantsinIndia.Atmos.Environ.92,449e460. emissions from India. Part IIdbiomass combustion. Atmos. Environ. 36 (4),
+Guttikunda,S.K.,Jawahar,P.,2018.Evaluationofparticulatepollutionandhealth 699e712.
+impactsfromplannedexpansionofcoal-firedthermalpowerplantsinIndia Rodríguez-Urrego,D.,Rodríguez-Urrego,L.,2020.AirqualityduringtheCOVID-19:
+usingWRF-CAMxmodelingsystem.AerosolAirQual.Res.18(12),3187e3202. PM2.5analysisinthe50mostpollutedcapitalcitiesintheworld.Environ.
+He,G.,Pan,Y.,Tanaka,T.,2020.Theshort-termimpactsofCOVID-19lockdownon Pollut.266(1),115042.
+urbanairpollutioninChina.Nat.Sustain.1e7. Rupakheti,D.,Kang,S.,Rupakheti,M.,Tripathee,L.,Zhang,Q.,Chen,P.,Yin,X.,2018.
+Hedelt,P.,Efremenko,D.S.,Loyola,D.G.,Spurr,R.,Clarisse,L.,2019.Sulfurdioxide Long-termtrendsinthetotalcolumnsofozoneanditsprecursorgasesderived
+layerheightretrievalfromSentinel-5Precursor/TROPOMIusingFP_ILM.Atmos. fromsatellitemeasurementsduring2004e2015overthreedifferentregionsin
+Meas.Tech.12,5503e5517. SouthAsia: Indo-GangeticPlain, Himalayas and TibetanPlateau.Int.J.Rem.
+Hsu,N.C.,Jeong,M.J.,Bettenhausen,C.,Sayer,A.M.,Hansell,R.,Seftor,C.S.,Huang,J., Sens.39(21),7384e7404.
+Tsay,S.C.,2013.EnhancedDeepBlueaerosolretrievalalgorithm:thesecond Sahu,S.K.,Ohara,T.,Beig,G.,2017.TheroleofcoaltechnologyinredefiningIndia’s
+generation.J.Geophys.Res.Atmos.118(16),9296e9315. climatechangeagentsandotherpollutants.Environ.Res.Lett.12(10),105006.
+Jain,S.,Sharma,T.,2020.Socialandtravellockdownimpactconsideringcorona- Sahu,S.K.,Tyagi,B.,Beig,G.,Mangaraj,P.,Pradhan,C.,Khuntia,S.,Singh,V.,2020.
+virusdisease(COVID-19)onairqualityinmegacitiesofIndia:presentbenefits, Significantchangeinairqualityparametersduringtheyear2020over1stsmart
+futurechallengesandwayforward.AerosolAirQual.Res.20,1222e1236. cityofIndia:Bhubaneswar.SNAppl.Sci.2,1e8.https://doi.org/10.1007/s42452-
+Ju, M.J., Oh, J., Choi, Y.H., 2020. Changes in air pollution levels after COVID-19 020-03831-7.
+outbreakinKorea.Sci.TotalEnviron.141521. Salman,M.,Long,X.,Dauda,L.,Mensah,C.N.,Muhammad,S.,2019.Differentim-
+Kar, J., Deeter, M.N., Fishman, J., Liu, Z., Omar, A., Creilson, J.K., Trepte, C.R., pactsofexportandimportoncarbonemissionsacross7ASEANcountries:a
+Vaughan,M.A.,Winker,D.M.,2010.WintertimepollutionovertheEasternIndo- panelquantileregressionapproach.Sci.TotalEnviron.686,1019e1029.
+Gangetic Plains as observed from MOPITT, CALIPSO and tropospheric ozone Sarmadi,M.,Marufi,N.,Moghaddam,V.K.,2020.AssociationofCOVID-19global
+residualdata.Atmos.Chem.Phys.10,12273e12283. distributionandenvironmentalanddemographicfactors:anupdatedthree-
+Karplus,V.J.,Zhang,S.,Almond,D.,2018.Quantifyingcoalpowerplantresponsesto monthstudy.Environ.Res.188,109748.
+tighterSO2emissionsstandardsinChina.Proc.Natl.Acad.Sci.Unit.StatesAm. Seinfeld,J.H.,Pandis,S.N.,2016.Atmos.Chem.Phys.:fromAirPollutiontoClimate
+115(27),7004e7009. Change.JohnWiley&Sons.
+Krecl, P., Targino, A.C., Oukawa, G.Y.C., Junior, R.P.C., 2020. Drop in urban air Sen,P.K.,1968.EstimatesoftheregressioncoefficientbasedonKendall’stau.J.Am.
+pollutionfromCOVID-19pandemic:policyimplicationsforthemegacityofSa~o Stat.Assoc.63,1379e1389.
+Paulo.Environ.Pollut.265(B),114883. Sharma, S., Zhang, M., Gao, J., Zhang, H., Kota, S.H., 2020. Effect of restricted
+Kumar, P., Hama, S., Omidvarborna, H., Sharma, A., Sahani, J., Abhijith, K.V., emissions during COVID-19 on air quality in India. Sci. Total Environ. 728,
+Debele, S.E., Zavala-Reyes, J.C., Barwise, Y., Tiwari, A., 2020. Temporary 138878.
+9
+B.Tyagi,G.Choudhury,N.K.Vissaetal. EnvironmentalPollution271(2021)116354
+Shehzad,K.,Sarfraz,M.,Shah,S.G.M.,2020.TheimpactofCOVID-19asanecessary 2017.Cleaninguptheair:effectivenessofairqualitypolicyforSO2andNOx
+evil on air pollution in India during the lockdown. Environ. Pollut. 266 (1), emissionsinChina.Atmos.Chem.Phys.17,1775e1789.
+115080. Vissa,N.K.,Anandh,P.C.,Behera,M.M.,Mishra,S.,2019.ENSO-inducedgroundwater
+Singh,V.,Singh,S.,Biswal,A.,Kesarkar,A.P.,Mor,S.,Ravindra,K.,2020.Diurnaland changesinIndiaderivedfromGRACEandGLDAS.J.EarthSyst.Sci.128(5),115.
+temporal changes in air pollution during COVID-19 strict lockdown over Wang,Q.,Su,M.,2020.ApreliminaryassessmentoftheimpactofCOVID-19on
+differentregionsofIndia.Environ.Pollut.266,115368. environmenteAcasestudyofChina.Sci.TotalEnviron.728,138915.
+Sui,Z.,Zhang,Y.,Peng,Y.,Norris,P.,Cao,Y.,Pan,W.P.,2016.Fineparticulatematter Wei,J.,Peng,Y.,Guo,J.,Sun,L.,2019.PerformanceofMODISCollection6.1Level3
+emissionandsizedistributioncharacteristicsinanultra-lowemissionpower aerosolproductsinspatial-temporalvariationsoverland.Atmos.Environ.206,
+plant.Fuel185,863e871. 30e44.
+Tyagi, B., Satyanarayana, A.N.V., 2015. Delineation of surface energy exchanges WHO, 2020. Rolling Updates on Coronavirus Disease (COVID-19) retrieved on.
+variations during thunderstorm and non-thunderstorm days during pre- https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-
+monsoonseason.J.Atmos.Sol.Terr.Phys.122,138e144. as-they-happen.(Accessed21July2020).
+Upadhyay,A.,Dey,S.,Goyal,P.,Dash,S.K.,2018.Projectionofnear-futureanthro- Yang,J.,Duan,K.,Kang,S.,Shi,P.,Ji,Z.,2017.Potentialfeedbackbetweenaerosols
+pogenic PM2. 5 over India using statistical approach. Atmos. Environ. 186, and meteorological conditions in a heavy pollution event over the Tibetan
+178e188. PlateauandIndo-GangeticPlain.Clim.Dynam.48(9e10),2901e2917.
+vanderA,R.J.,Mijling,B.,Ding,J.,Koukouli,M.E.,Liu,F.,Li,Q.,Mao,H.,Theys,N.,
+10
