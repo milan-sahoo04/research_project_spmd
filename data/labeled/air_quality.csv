@@ -1,0 +1,426 @@
+Year,Pollutant,Location,Value
+2005,SPM,A-1,580.3
+2005,SPM,A-2,605.3
+2005,SPM,A-3,752.3
+2005,SPM,A-4,758.8
+2005,SPM,A-5,677.0
+2005,SPM,A-6,619.3
+2005,SPM,A-7,686.5
+2005,SPM,A-8,698.3
+2005,SPM,A-9,311.8
+2005,SPM,A-10,346.8
+2005,SPM,A-11,488.5
+2005,RPM,A-1,265
+2005,RPM,A-2,333
+2005,RPM,A-3,275
+2005,RPM,A-4,306
+2005,RPM,A-5,307
+2005,RPM,A-6,257
+2005,RPM,A-7,280
+2005,RPM,A-8,284
+2005,RPM,A-9,159
+2005,RPM,A-10,209
+2005,RPM,A-11,299
+2005,SO2,A-1,29.3
+2005,SO2,A-2,35.3
+2005,SO2,A-3,31.0
+2005,SO2,A-4,33.8
+2005,SO2,A-5,31.5
+2005,SO2,A-6,33.3
+2005,SO2,A-7,33.0
+2005,SO2,A-8,31.5
+2005,SO2,A-9,20.8
+2005,SO2,A-10,31.3
+2005,SO2,A-11,32.3
+2005,NO2,A-1,31.0
+2005,NO2,A-2,39.5
+2005,NO2,A-3,33.3
+2005,NO2,A-4,31.8
+2005,NO2,A-5,30.3
+2005,NO2,A-6,32.0
+2005,NO2,A-7,34.8
+2005,NO2,A-8,32.3
+2005,NO2,A-9,20.8
+2005,NO2,A-10,31.3
+2005,NO2,A-11,34.5
+2006,SPM,A-1,614
+2006,SPM,A-2,812
+2006,SPM,A-3,648
+2006,SPM,A-4,783
+2006,SPM,A-5,694
+2006,SPM,A-6,645
+2006,SPM,A-7,726
+2006,SPM,A-8,730
+2006,SPM,A-9,344
+2006,SPM,A-10,387
+2006,SPM,A-11,530
+2007,SPM,A-1,637
+2007,SPM,A-2,817
+2007,SPM,A-3,669
+2007,SPM,A-4,809
+2007,SPM,A-5,711
+2007,SPM,A-6,677
+2007,SPM,A-7,755
+2007,SPM,A-8,758
+2007,SPM,A-9,362
+2007,SPM,A-10,402
+2007,SPM,A-11,544
+2008,SPM,A-1,682
+2008,SPM,A-2,847
+2008,SPM,A-3,685
+2008,SPM,A-4,834
+2008,SPM,A-5,730
+2008,SPM,A-6,702
+2008,SPM,A-7,789
+2008,SPM,A-8,816
+2008,SPM,A-9,381
+2008,SPM,A-10,432
+2008,SPM,A-11,554
+
+
+Location,Index,Latitude_Longitude,Source_of_Pollution
+Joda,S1,"22°1'11''N 85°25'31''E","Industry, Mining, Transportation"
+Khandhabanda,S2,"22°4'44''N 85°44'28''E","Mining, Transportation"
+Thakurani,S3,"22°6'57''N 85°25'00''E","Mining, Transportation"
+Bamebari,S4,"22°4'44''N 85°44'28''E","Mining, Transportation"
+Rugudi,S5,"22°0'16''N 85°19'26''E","Transportation"
+Bileipada,S6,"22°3'46''N 85°28'38''E","Industry, Transportation"
+
+
+AQI_Value,Category,Health_Concern
+0-25,Clean Air (CA),Minimal or none
+26-50,Light Air Pollution (LAP),Possible respiratory or cardiac effect for sensitive group
+51-75,Moderate Air Pollution (MAP),Increasing respiratory and cardiovascular symptoms
+76-100,Heavy Air Pollution (HAP),Aggravation of heart and lung diseases
+>100,Severe Air Pollution (SAP),Serious aggravation of diseases; risk of death in children
+
+
+Pollutant,Time_Average,Industrial,Residential,Ecologically_Sensitive
+SPM,Annual,360,140,70
+SPM,24_hours,500,200,100
+RPM,Annual,120,60,50
+RPM,24_hours,150,100,75
+SO2,Annual,50,50,20
+SO2,24_hours,80,80,80
+NO2,Annual,40,40,30
+NO2,24_hours,80,80,80
+
+
+Pollutant,S1,S2,S3,S4,S5,S6
+SPM,620,630,770,765,631,470
+RPM,290,298,315.3,312,306,260
+SO2,32.4,33.5,34.2,33.6,32.6,33.0
+NO2,34,38.0,32.6,32.0,31.4,34.9
+
+
+Pollutant,S1,S2,S3,S4,S5,S6
+SPM,644.9,650,820,489,790,510
+RPM,320.1,305,398.3,298,340,300
+SO2,33.0,37.2,37.9,34.2,37.2,37.2
+NO2,34.0,37.6,38.2,33.6,38.6,36.5
+
+
+Pollutant,S1,S2,S3,S4,S5,S6
+SPM,688,670,845,810,660,552
+RPM,345,329,308,340,314,305
+SO2,33.9,38,39.2,38,33,40
+NO2,35.2,38,41.2,40,38,39.5
+
+
+Pollutant,Location,Min,Max,Mean,Variance,SD,Skewness,Kurtosis
+SO2,Angul,7,23,11.7,4.62,2.15,1.54,7.93
+SO2,Bhubaneswar,2,7,3.21,1.01,1.00,1.43,2.76
+SO2,Cuttack,2,8,3.98,1.93,1.39,1.03,0.41
+SO2,Talcher,10,15,12.3,1.01,1.00,-0.078,0.267
+SO2,Rourkela,3,20,10.75,10.79,3.28,0.621,0.415
+NO2,Angul,21,36,31.14,7.13,2.67,-0.92,1.35
+NO2,Bhubaneswar,13,40,22.55,31.91,5.64,1.27,1.12
+NO2,Cuttack,19,45,32.11,60.90,7.80,-0.21,-1.59
+NO2,Talcher,26,42,34,10.72,3.27,-0.183,-0.082
+NO2,Rourkela,6,24,16.13,9.58,3.09,-0.25,1.83
+PM2.5,Angul,45,143,76.01,450.97,21.2,1.10,1.32
+PM2.5,Bhubaneswar,28,133,55.40,426.36,20.6,1.25,1.82
+PM2.5,Cuttack,26,207,70.82,816.84,28.5,2.19,-0.49
+PM2.5,Talcher,30,173,77.3,978.81,31.2,1.052,0.924
+PM2.5,Rourkela,40,223,80.25,897.61,29.9,2.98,10.87
+PM10,Angul,57,124,93.71,285.50,16.8,-0.17,-0.99
+PM10,Bhubaneswar,45,137,90.10,632.94,25.1,0.06,-1.10
+PM10,Cuttack,49,167,88.29,694.62,26.3,0.55,7.44
+PM10,Talcher,45,153,98.6,562.02,23.7,-0.191,0.740
+PM10,Rourkela,51,158,106.2,526.30,22.9,-0.17,-0.01
+
+Pollutant,Order,Seasonal_Order,AIC,BIC
+SPM,"(0,1,2)","(1,1,1,12)",20.157,45.691
+NO2,"(0,1,2)","(1,1,1,12)",20.157,45.691
+SO2,"(0,1,2)","(1,1,1,12)",-1244.481,-1233.532
+RSPM,"(1,1,1)","(1,1,1,12)",552.886,578.421
+
+Model,Pollutant,RMSE,MSE
+SARIMA_General,SPM,4.13,17.12
+SARIMA_General,NO2,4.13,17.12
+SARIMA_General,SO2,2.55,6.50
+SARIMA_General,RSPM,57.04,3254.158
+
+Model,Pollutant,RMSE,MSE
+Prophet_General,SPM,3.78,14.34
+Prophet_General,NO2,3.57,12.75
+Prophet_General,SO2,2.15,4.65
+Prophet_General,RSPM,45.80,2097.77
+
+Model,Pollutant,RMSE,MSE
+Prophet_Log,SPM,3.54,12.55
+Prophet_Log,NO2,3.54,12.55
+Prophet_Log,SO2,2.141,4.58
+Prophet_Log,RSPM,39.86,1589.259
+
+Chapter_Number,Chapter_Title,Authors,Page
+1,An SRR metamaterial for focusing enhancement of W-band lens antenna for microwave imaging,"Debapriya Nilakantha Padhy et al.",1
+2,Development of a visitor tracking system for tourist areas to monitor crowd density peak hours and visitor demographics,"Anshuman Sahoo et al.",5
+3,A study on extending IoT applications in multiprocessing agricultural systems,"G. Sophia Reena et al.",9
+4,A novel approach for mask face detection using convolutional neural network,"Ram Gopal Sharma et al.",15
+5,Enhancing 5G network management through association rule mining,"Sushanta Meher et al.",19
+6,A binarization method for Odia palm leaf manuscripts using Odia language accelerator model,"Aloka Natha et al.",23
+7,FRMM-LSTM multimodal fusion based caption recurrent network for vision analysis,"Harapriya Kar et al.",28
+8,CNN-based classification of potato leaf diseases,"Prateek Mahapatra et al.",32
+9,Content-based deep neural image retrieval system for remote sensing images,"Sai Bhargav Kasetty et al.",35
+10,Modelling non-linear time series data using deep learning techniques,"Masrath Parveen et al.",39
+11,Techno-economic evaluation of large-scale energy storage integrated hybrid power systems,"Ashribad Pattnaik et al.",43
+12,Revolutionizing cancer diagnosis using machine learning techniques,"Amiya Kumar Sahoo et al.",47
+13,An ensemble approach for heart disease prediction,"Avishek Mishra et al.",53
+14,Probabilistic node localization and threat detection in IoT architectures,"Sudheer Nidamanuri et al.",57
+15,A six element antenna array for 5G application,"Sarmistha Satrusallya et al.",61
+16,Semantic communication system for speech signal using deep learning,"S. K. Singh et al.",65
+17,IoT-driven patient monitoring and heart disease detection,"Dibas Kumar Hembram et al.",69
+18,AI-powered chatbot for symptom analysis,"P. Devika et al.",76
+19,Flood prediction model using LSTM and SVM,"Abhipsa Mahala et al.",81
+20,Real time face mask detection in nuclear power plants,"Satya Ranjan Panda et al.",87
+
+Station_Code,Sampling_Location,Latitude_Longitude,Distance_km,Direction,Location_Type
+L1,Dumping Site,"20°23'32.62""N 85°47'20.08""E",-,-,-
+L2,Sundarpur,"20°21'49.91""N 85°47'39.49""E",3.22,S,"Urban type settlement"
+L3,Daruthenga,"20°22'50.19""N 85°47'37.38""E",1.41,SSE,"Urban type settlement"
+L4,Kujimahal,"20°21'10.96""N 85°45'04.73""E",5.89,SW,"Near Khurda-Chandaka road"
+L5,Darhapatana,"20°24'35.72""N 85°49'56.74""E",4.94,NNE,"Near Baranga nala"
+L6,Ramdaspur,"20°27'00.93""N 85°47'00.02""E",6.44,N,"Urban type settlement"
+L7,Trisulia,"20°25'56.28""N 85°49'56.04""E",6.32,NE,"Settlement & road infrastructure (urban)"
+L8,Chandaka,"20°22'07.60""N 85°45'49.57""E",3.72,SW,"Urban type settlement"
+L9,KIIT Campus,"20°21'24.43""N 85°49'17.66""E",5.21,SE,"Near Sikharchandi Road"
+L10,Bharatpur,"20°18'29.06""N 85°46'41.89""E",9.42,S,"Near Khandagiri-Chandaka road"
+
+Cluster,Season,PM_Range_ug_per_Nm3,PM_Mean_SD,SO2_Range_ug_per_m3,SO2_Mean_SD,NO2_Range_ug_per_m3,NO2_Mean_SD
+Kuarmunda,Rainy,"82-115","99.0±14.64","58-72","64.8±5.40","84-91","87.6±2.70"
+Kuarmunda,Winter,"117-162","138.4±21.31","79-94","86.2±6.38","99-112","105.8±5.54"
+Kuarmunda,Summer,"100-139","117.4±17.50","65-83","74.4±6.91","91-102","96.0±4.0"
+Kuarmunda,Average,"82-162","118.27±19.71","58-94","75.13±10.72","84-112","96.47±9.11"
+
+Kalunga,Rainy,"90-129","107.6±15.47","62-71","67.0±3.67","83-93","89.4±4.62"
+Kalunga,Winter,"122-178","148.8±21.44","78-99","92.6±8.73","101-119","111.6±7.44"
+Kalunga,Summer,"105-142","125.6±14.17","71-86","79.8±5.50","90-109","99.0±8.15"
+Kalunga,Average,"90-178","127.33±20.65","62-99","79.80±12.80","83-119","100.00±11.13"
+
+Rajgangpur,Rainy,"83-193","122.6±52.45","62-71","65.8±3.35","80-94","86.8±5.89"
+Rajgangpur,Winter,"119-265","169.6±62.78","88-97","92.8±3.42","93-116","105.4±9.07"
+Rajgangpur,Summer,"98-223","144.0±56.95","76-83","79.6±3.05","83-106","97.4±10.11"
+Rajgangpur,Average,"83-265","145.40±23.53","62-97","79.40±13.50","80-116","96.53±9.33"
+
+Bonaigarh,Rainy,"71-98","85.2±9.73","62-72","66.8±3.56","80-99","92.2±7.60"
+Bonaigarh,Winter,"114-142","126.8±12.07","79-98","88.2±6.98","103-124","111.6±8.17"
+Bonaigarh,Summer,"100-121","106.2±8.47","69-90","77.6±8.62","95-111","102.2±5.72"
+Bonaigarh,Average,"71-142","106.07±20.80","62-98","77.53±10.70","80-124","102.00±9.70"
+
+Date,AOD,PM2.5 (µg/m3),PM10 (µg/m3),CO_Surface (mg/m3),CO_Satellite (mol/m2),O3_Surface (µg/m3),O3_Satellite (mol/m2)
+03 Mar,0.38,140,105,14,0.04,34,0.12
+04 Mar,0.51,172,120,16,0.05,36,0.12
+05 Mar,0.66,174,110,21,0.06,31,0.13
+06 Mar,0.62,171,107,20,0.05,31,0.12
+07 Mar,0.71,193,105,16,0.06,27,0.13
+08 Mar,1.06,176,101,14,0.07,30,0.14
+09 Mar,1.12,120,65,15,0.06,23,0.12
+
+Sector,PM2.5_Gg_per_year,PM10_Gg_per_year,CO_Gg_per_year,NOx_Gg_per_year,VOC_Gg_per_year,SO2_Gg_per_year,BC_Gg_per_year,OC_Gg_per_year
+Windblown_Road_Dust,0.561,5.149,NA,NA,NA,NA,NA,NA
+Transport,4.655,4.750,98.473,36.284,72.579,6.896,3.874,NA
+Industry,0.551,0.876,0.300,2.248,NA,2.867,0.135,NA
+Household,0.393,0.550,3.027,0.367,0.025,0.069,0.031,0.239
+Slum,0.304,0.404,2.381,0.273,0.017,0.059,0.024,0.183
+Street_Vendor,0.344,0.995,4.464,0.567,0.025,0.335,0.065,0.363
+Diesel_Generator,0.915,1.144,0.516,2.390,NA,0.159,0.468,NA
+Aviation,NA,NA,1.192,2.198,0.193,0.176,NA,NA
+Construction,0.950,2.367,NA,NA,NA,NA,NA,NA
+Incense_Mosquito_Cigarettes,0.187,0.227,0.853,0.040,0.003,0.026,0.011,0.020
+Crematory,0.040,0.050,0.380,0.046,0.002,0.001,0.004,0.026
+Total,8.897,16.513,111.586,44.414,72.845,10.588,4.613,0.831
+
+Day,Beleipada,Brajaraj_Nagar,Keonjhar,Rairangpur,Rourkela,Talcher,Tensa
+01-Jun-23,10.02,59.82,6.66,19.99,15.35,30.91,26.54
+02-Jun-23,12.36,68.97,6.62,18.27,17.07,30.90,24.88
+03-Jun-23,9.37,20.80,5.65,19.20,11.01,30.91,26.08
+04-Jun-23,8.65,29.54,4.33,17.31,13.63,30.90,28.03
+05-Jun-23,10.61,21.02,6.02,16.62,12.52,30.95,28.52
+06-Jun-23,10.95,30.92,7.56,21.35,16.47,31.39,26.28
+07-Jun-23,10.30,31.74,6.44,18.87,15.62,31.43,41.97
+08-Jun-23,11.08,14.24,6.42,24.02,17.66,31.47,42.73
+09-Jun-23,13.07,26.28,7.05,17.13,17.58,31.46,46.48
+10-Jun-23,9.29,29.21,4.31,15.12,14.35,31.45,29.01
+11-Jun-23,8.80,18.26,4.71,15.34,14.16,31.44,23.18
+12-Jun-23,10.85,18.18,6.15,15.30,14.40,31.27,30.10
+13-Jun-23,6.03,21.67,2.79,9.03,13.39,31.26,28.72
+14-Jun-23,9.19,27.58,3.80,38.04,15.52,31.28,22.85
+15-Jun-23,6.57,14.64,3.77,23.65,15.85,31.27,25.98
+16-Jun-23,8.60,17.87,3.86,28.88,15.35,31.24,32.49
+17-Jun-23,8.42,15.88,4.17,19.15,14.98,31.26,35.50
+18-Jun-23,6.64,20.24,4.17,17.86,11.54,31.28,25.92
+19-Jun-23,6.25,14.33,4.76,26.59,12.40,31.32,24.21
+20-Jun-23,7.09,9.89,3.85,23.38,12.14,31.31,24.69
+21-Jun-23,5.91,18.65,4.13,20.33,13.74,31.27,23.10
+22-Jun-23,6.23,14.86,4.25,21.92,10.74,31.34,25.95
+23-Jun-23,6.10,18.87,4.44,19.88,12.87,31.43,27.47
+24-Jun-23,6.99,16.76,4.50,19.33,11.15,31.49,23.12
+25-Jun-23,6.89,14.94,4.30,17.45,10.09,31.48,20.89
+26-Jun-23,4.95,13.98,4.04,15.91,8.33,31.46,6.08
+27-Jun-23,4.47,2.57,3.54,15.45,7.71,31.51,7.08
+28-Jun-23,4.71,4.26,3.95,17.05,8.91,31.48,15.99
+29-Jun-23,5.23,9.87,3.94,18.40,9.21,31.48,18.70
+30-Jun-23,5.62,17.76,6.15,18.33,11.91,31.46,24.41
+
+Species,Site,Month,RWC_percent,pH,TCH_mg_per_g,AA_mg_per_g,APTI
+PL,A,October,62.318,5.69,4.35,2.45,8.69
+PL,B,October,63.010,5.99,3.91,3.50,9.77
+PL,C,October,56.756,5.51,2.36,2.10,7.33
+PL,A,November,45.098,5.90,2.58,1.75,6.00
+PL,B,November,63.010,6.10,2.83,2.25,7.28
+PL,C,November,40.298,5.70,1.72,1.65,5.26
+
+FR,A,October,77.972,6.20,2.30,1.95,9.45
+FR,B,October,46.236,8.35,1.69,3.25,7.89
+FR,C,October,73.684,7.44,2.20,2.85,10.12
+FR,A,November,47.230,6.70,1.29,1.70,6.08
+FR,B,November,46.236,7.81,1.20,2.00,5.81
+FR,C,November,53.929,6.09,1.37,1.90,6.81
+
+TG,A,October,66.806,7.12,3.09,2.50,9.23
+TG,B,October,67.847,6.57,1.32,4.35,10.22
+TG,C,October,72.569,6.39,2.03,3.65,10.33
+TG,A,November,57.510,6.97,1.56,1.80,7.29
+TG,B,November,67.847,6.20,1.14,2.15,7.65
+TG,C,November,60.239,5.87,1.54,1.50,7.13
+
+Species,Site,Month,Leaf_Area_cm2,W1_g,W2_g,Dust_Collection_mg_per_cm2
+PL,A,October,53.67,0.782,0.757,0.47
+PL,B,October,45.25,0.824,0.812,0.27
+PL,C,October,56.39,0.880,0.840,0.71
+PL,A,November,88.30,1.560,1.500,0.68
+PL,B,November,79.93,1.180,1.150,0.38
+PL,C,November,81.26,1.260,1.170,1.11
+
+FR,A,October,152.02,3.470,3.396,0.49
+FR,B,October,119.40,2.550,2.501,0.41
+FR,C,October,131.25,3.257,3.166,0.69
+FR,A,November,94.78,2.480,2.399,0.85
+FR,B,November,132.61,3.300,3.233,0.51
+FR,C,November,184.44,5.320,5.142,0.97
+
+TG,A,October,292.28,4.198,3.508,2.36
+TG,B,October,282.29,4.660,3.137,1.85
+TG,C,October,424.26,6.534,3.325,2.85
+TG,A,November,426.51,5.100,3.759,3.14
+TG,B,November,434.83,6.580,5.686,2.06
+TG,C,November,497.55,6.520,5.277,2.50
+
+Species,Arrangement,Margin,Orientation,Pubescence,Prominent_Veins,Leaf_Internode,Petiole,Leaf_Lamina,Total_Grade
+PL,+,-,+,-,+,+,+,-,5
+FR,+,-,-,-,+,-,-,+,3
+TG,+,-,+,+,+,-,-,++,6
+
+
+Study,Location,Type_of_Study,Reference_Period,PM2.5_Change,PM10_Change,NO2_Change,CO_Change,SO2_Change,O3_Change
+Abdullah et al. (2020),Malaysia (16 states),Monitoring station data,Before movement control order,-42.6 to -76.5,,,
+Aman et al. (2020),India,Remote sensing data,Same period 2015–2019,,-16.8 to -36.5,,,
+Barré et al. (2020),Europe (100 locations),Satellite + stations,Same period 2019,,,"+6.05 to -60.5",,
+Bekbulat et al. (2021),USA (all states),Monitoring stations,2020 pre-COVID period,+3.0,,-30.0,,-4.0
+Chen et al. (2020a),China (367 cities),Satellite data,Before quarantine,-18.9,,-12.9,,
+Collivignarelli et al. (2020),Italy (Milan),Monitoring stations,Feb 7–20 2020,-47.1 to -59.4,-45.8 to -59.4,-58.6,-32 to -56.7,,+66.0
+Dantas et al. (2020),Brazil (Rio de Janeiro),Monitoring stations,Same period 2019,,-28.7 to 19.4,-24.1 to -32.9,-37.0 to -43.6,,+22.5 to +63
+Gautam (2020),China/India/Europe,Satellite data,Before lockdown,,,-30 to -70,,
+Hudda et al. (2020),USA,Measurement campaign,,,-45 to -69 (BC),,,
+Kanniah et al. (2020),SE Asia cities,Satellite + stations,,,-26 to -31,-34 to +25,-25 to -32,-9 to -20,+3 to +7
+Mahato et al. (2020),India (Delhi),Monitoring stations,Pre-lockdown,-53.1 to -32.9,-56.6 to -51.9,-52.7,-30.4,-18.0,+0.78
+Resmi et al. (2020),India (Kannur),Monitoring stations,Pre-lockdown,-53.0,-61.0,-71.0,-67.0,-62.0,+22.0
+Sicard et al. (2020),Europe + China,Monitoring stations,2017–2019 baseline,+10.6 to -36.3,+1.8 to -48.7,-30.4 to -69.0,,,+2.4 to +36.4
+Tobías et al. (2020),Spain (Barcelona),Stations + satellite,Pre-lockdown,,-31.0 to -27.8,-47.0 to -51.4,,-19.4 to +1.8,+28.5 to +57.7
+Wang et al. (2020b),China (30 cities),Monitoring stations,Jan 2020 baseline,-21.0,-27.0,-54.0,-20.0,-16.0,+51.0
+Zhu et al. (2020),Singapore,Stations + satellite,2016–2019 baseline,-29.0,-23.0,+54.0,-6.0,-52.0,+18.0
+
+
+Station_Code,Location_Name,Direction_and_Locality,Distance_from_Core_km,Description
+S1,Jharsuguda Town,"North, Town",20,"Town area"
+S2,Brundamal,"North, Railway siding",12,"Railway platform is near to it"
+S3,Thelkoli,"North, Industrial Area",6,"Iron and Steel industry near to this place"
+S4,Village Tumbekela,"South, coal mines and residential Area",15,"M/S Talabira Coal mines of Hindalco operating near to it"
+S5,Aditya Birla Aluminium Smelter Main Gate,"Core area",0,"Industrial area"
+S6,Main Gate Shyam DRI plant,"South",5,"Shyam DRI steel and Power plant and other two small sponge Iron Plants"
+S7,Rengali,"South-East, residential",10,"Small town area, Railway track is 1KM away"
+S8,Sason Canal,"Residential Area and side of SH-10",15,"Two sponge iron plants and rice mills operating in this area"
+S9,Seven Hills Residential School,"South-East, Residential",20,"No industries located, near SH-10"
+S10,Aithapali, Sambalpur,"Market and commercial Area",25,"Commercial area located side of SH-10 and NH-6"
+
+
+City,Station,Observations,PM10,PM2.5,SO2,NO2,NH3,O3,Annual_AQI,Category
+Angul,SPCB Office Building Hakimpada,104,105,50,11.6,22.4,32.3,28.2,103,Satisfactory
+Angul,NALCO Nagar,104,104,39,10.4,28.0,33.8,BDL,103,Satisfactory
+Angul,Sikshyakapada,66,76,37,10.9,16.0,BDL,26.7,76,Satisfactory
+
+Talcher,Talcher Thermal Township,104,109,43,10.8,26.7,34.7,BDL,106,Moderate
+Talcher,MCL Bharatpur Guest House,104,115,39,10.6,28.8,27.9,BDL,110,Moderate
+Talcher,Champapasi Village,74,102,50,13.7,18.8,33.7,30.8,101,Moderate
+
+Balasore,SPCB Office Ganeswarpur,104,89,53,BDL,10.7,23.2,24.3,89,Satisfactory
+Balasore,Oriplast OT Road,104,84,50,BDL,10.6,23.1,24.0,84,Satisfactory
+Balasore,Balgopalpur Industrial Area,104,97,58,7.9,11.5,23.9,25.5,97,Satisfactory
+
+Berhampur,SPCB Office Ankuli IE,102,87,48,BDL,15.9,32.2,28.3,87,Satisfactory
+
+Kandhamal,G Udayagiri,73,59,23,4.8,13.9,NA,NA,59,Satisfactory
+Kandhamal,Phulbani,74,42,23,5.1,15.5,NA,NA,42,Satisfactory
+
+Bhubaneswar,Nilakanthanagar SPCB Office,100,100,46,BDL,16.6,69.3,27.6,100,Moderate
+Bhubaneswar,IRC Village Nayapalli,98,92,36,BDL,14.6,39.2,26.8,92,Moderate
+Bhubaneswar,Capital Police Station,104,109,43,BDL,16.8,43.7,27.3,106,Moderate
+Bhubaneswar,Chandrasekharpur SPCB Office,105,110,46,BDL,16.4,45.6,28.0,107,Moderate
+Bhubaneswar,Khandagiri Police Station,108,117,46,BDL,18.1,38.4,28.5,111,Moderate
+Bhubaneswar,Palasuni Water Works,109,104,41,BDL,16.1,36.6,26.5,103,Moderate
+
+Cuttack,Hotel Bishal Inn Badambadi,103,100,32,BDL,17.9,43.4,34.4,100,Moderate
+Cuttack,SPCB Office Surya Vihar,104,112,37,5.1,20.8,46.8,40.0,108,Moderate
+Cuttack,PHD Office Barabati,104,105,35,BDL,19.3,37.1,34.7,103,Moderate
+
+Jharsuguda,SPCB Office Cox Colony,105,112,54,8.6,13.3,23.2,BDL,108,Moderate
+Jharsuguda,TRL Colony Premises,105,115,58,8.6,14.4,24.9,23.3,110,Moderate
+Jharsuguda,Maa Samaleswari Nagar,78,104,49,8.3,13.1,23.8,BDL,103,Moderate
+
+Kalinga Nagar,BRPL Guest House,74,92,41,6.6,13.3,32.0,23.1,92,Satisfactory
+Kalinga Nagar,SPCB Office,87,98,49,6.6,13.0,30.0,22.9,98,Satisfactory
+Kalinga Nagar,DET Hostel Tata Steel,89,103,49,6.5,25.2,31.4,22.3,102,Satisfactory
+
+Keonjhar,SPCB Office Baniapat,102,97,50,BDL,11.8,33.6,NA,97,Satisfactory
+
+Konark,Konark Police Station,104,64,28,BDL,12.1,33.4,24.5,64,Satisfactory
+
+Paradeep,PPL Guest House,103,93,45,14.9,10.2,113,BDL,93,Satisfactory
+Paradeep,IFFCO STP Area,103,93,45,15.9,11.4,126,22.2,93,Satisfactory
+Paradeep,Paradeep Port Trust Colony,103,83,40,13.8,11.5,109,BDL,83,Satisfactory
+
+Puri,Sadar Police Station,110,88,26,BDL,12.8,41.8,BDL,88,Satisfactory
+Puri,Town Police Station,110,97,26,BDL,12.5,41.8,BDL,97,Satisfactory
+
+Rayagada,SPCB Office Indiranagar,98,76,30,5.3,16.6,29.4,22.5,76,Satisfactory
+Rayagada,LPS High School Jaykaypur,98,83,34,10.4,20.3,35.1,24.4,83,Satisfactory
+
+Rajgangpur,DISIR Rajgangpur,104,110,44,12.4,15.2,20.6,26.0,107,Moderate
+
+Rourkela,Town Engg Office Sector 5,104,116,51,12.0,13.4,23.0,25.5,111,Moderate
+Rourkela,IDL Outpost,104,137,68,10.3,13.4,25.6,24.3,127,Moderate
+Rourkela,IDCO Water Tank Kalunga,104,185,53,12.1,15.4,25.0,26.1,157,Moderate
+Rourkela,Kuarmunda Outpost,104,172,46,11.7,13.3,24.6,27.0,148,Moderate
+
+Sambalpur,PHD Office Modipara,104,112,44,7.8,24.7,BDL,BDL,108,Moderate

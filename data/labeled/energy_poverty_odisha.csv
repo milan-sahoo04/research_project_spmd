@@ -1,0 +1,39 @@
+Section,Key_Point
+Title,Regional disparity in energy poverty: A spatial analysis of Odisha
+Topic,Energy poverty in Odisha
+Definition,Energy poverty refers to lack of access to affordable and reliable energy services
+Importance,Energy poverty affects health education and economic development
+Measurement,Multi-dimensional Energy Poverty Index (MEPI) used
+Dimensions,Accessibility affordability reliability legality
+Data_Source,National Sample Survey 68th round
+Sample_Size,4026 households
+Rural_Percentage,73.87
+Urban_Percentage,26.13
+Cooking_Fuel_Usage,Most households use traditional fuels
+Lighting_Fuel_Usage,Electricity widely used for lighting
+Traditional_Fuels,Firewood coal dung kerosene
+Clean_Fuels,LPG electricity
+Highest_Cooking_Fuel_Poverty,Kalahandi Balangir Bargarh Subarnapur
+Lowest_Cooking_Fuel_Poverty,Jharsuguda Nayagarh Anugul Sambalpur
+Highest_Lighting_Fuel_Poverty,Kandhamal Mayurbhanj
+Lowest_Lighting_Fuel_Poverty,Nayagarh Kendrapara Bhadrak Cuttack Khordha
+Affordability_Index,Measured using Monthly Per Capita Consumption Expenditure
+Lowest_Affordability_Districts,Malkangiri Nuapada Gajapati Mayurbhanj Rayagada Koraput Kalahandi
+Highest_Affordability_Districts,Cuttack Khordha Jharsuguda Dhenkanal
+Forest_Cover_Impact,High forest cover limits energy infrastructure development
+Highest_Forest_Cover,Kandhamal Gajapati Debagarh
+Lowest_Forest_Cover,Bhadrak Puri Jagatsinghpur
+Energy_Poverty_Ranking_Highest,Kandhamal Mayurbhanj
+Energy_Poverty_Ranking_Lowest,Cuttack Khordha
+Regional_Poverty_Trend,Southern division has highest energy poverty
+Urban_Rural_Disparity,Urban areas show less energy poverty than rural areas
+Health_Impact,Solid fuel use causes indoor air pollution respiratory disease
+Education_Impact,Energy poverty reduces schooling years
+Gender_Impact,Women disproportionately affected due to domestic energy roles
+Correlation,Energy poverty strongly linked with income poverty
+Policy_Suggestion,Promote LPG adoption and clean energy access
+Renewable_Suggestion,Distributed solar and community solar programs
+Economic_Barrier,High initial cost prevents clean energy adoption
+Subsidy_Recommendation,Provide targeted financial assistance for clean fuel transition
+SDG_Link,Energy poverty reduction supports SDG1 SDG3 SDG4 SDG7 SDG10 SDG13
+Conclusion,Energy poverty varies significantly across districts and regions in Odisha
