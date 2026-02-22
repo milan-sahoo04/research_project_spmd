@@ -1,15 +1,33 @@
-# Jupyter
-.ipynb_checkpoints/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
 
-# Trained models (large files)
+# Virtual env
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data folders
+data/raw/
+data/processed/
+
+# Large generated files
+slm/dataset.csv
+slm/slm_model/
+
+# Models
 models/
 
-# Environment variables
+# Env files
 .env
 
-# Extra PDFs (not tracked)
-data/raw/extra_pdfs/
+# OS junk
+.DS_Store
+Thumbs.db
+
+slm_model/
+data/raw/
+checkpoints/
+*.pt
+*.safetensors
